@@ -1,0 +1,53 @@
+Peer-to-Peer (P2P) is a software architecture used to decentralize resources and
+workloads between nodes, or "peers".
+
+P2P is an alternative to the client-server model. In a client-server model,
+a centralized server can be a single point of failure for the complete network.
+Additionally, the server's resources are limited to its own. Therefore, the
+bandwidth to resources may be limited, or saturated if enough clients
+are connected.
+
+A P2P network circumvents the centralization of resources by allowing each peer
+to share some of their own resources to all others on the network. This allows a
+node in the network to act as both a supplier and consumer of resources simultaneously.
+Another advantage of a P2P network is that it reduces the expenses of maintaining
+dedicated servers.
+
+In a P2P network, resources are distributed throughout peers. If a node requests
+a certain type of resource, it must determine which node in the network has the
+resource. To do so, the node must access a shared directory that stores references
+to all peers in the network. Then, the node can simply utilize the resources of the
+node.
+
+The P2P architecture has one actor - the node. All nodes share the same privilege,
+and therefore are equal entities in a P2P network. Because of this, all nodes
+in a P2P network are independent in terms of functionality. However, they still
+depend on each other to share resources between themselves.
+
+In a summary, the P2P architecture has several advantages:
+    - A single node can be both a client and server
+    - Nodes do not have specific roles
+    - Resources available are much greater than a centralized approach
+
+However, it also has the following   disadvantages:
+    - Because any node can be a server or client, and there are no intermediary,
+      anonymous points of contact, it is difficult to provide security in a P2P
+      network.
+    - Data is difficult to back up because it is spread throughout the network's
+      nodes.
+
+These disadvantages pose some security implications:
+    - It is possible to conduct a Distributed Denial of Service (DDoS) attack
+      on nodes in the network because nodes are connected directly.
+    - It is possible to "poison" the network. That is, it is easy to serve useless
+      or harmful information.
+    - There is no privacy:
+        a. All nodes have direct access to packets being sent in the network.
+        b. Inexperienced users might be unknowingly sharing financial, email,
+           or web cache data.
+    - Solutions:
+        a. Provide anonymity by hiding whether a node is serving or receiving
+           information.
+        b. Encrypt packets.
+
+Some examples of P2P applications include Skype, Limewire, and Frostwire.
